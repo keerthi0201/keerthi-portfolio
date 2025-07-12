@@ -220,7 +220,7 @@ section{
     filter: drop-shadow(0 0 10px rgb(109,67,0));
 }
 
-@media(max-width:600px){
+@media(max-width:768px){
     body{
         overflow-y: visible;
     }
@@ -262,12 +262,15 @@ section{
     .cancel{
         color: white;
     }
+    .main-container.image{
+        width: 100%;
+        text-align: center;
+    }
     .main-container.image img{
-        width: 250px;
-        margin-bottom: 0px;
+        width: 80%;
         height: auto;
-        max-width: 100%;
-        display: block;
+        max-width: 300px;
+        display:inline-block;
         margin: 0 auto;
     }
 }
