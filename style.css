@@ -257,7 +257,6 @@ section{
     .role-title{
         font-size: 1.2rem;
         text-align: center;
-
     }
     .cancel{
         color: white;
@@ -267,7 +266,7 @@ section{
         text-align: center;
     }
     .main-container.image img{
-        width:min(90%,260px);
+        width:min(100%,320px);
         height: auto;
         max-width: 300px;
         display:inline-block;
