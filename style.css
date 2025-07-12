@@ -261,12 +261,12 @@ section{
     .cancel{
         color: white;
     }
-    .main-container.image{
+    .main-container .image{
         width: 100%;
         text-align: center;
     }
-    .main-container.image img{
-        width:100%;
+    .main-container .image img{
+         width:100%;
         height: auto;
         max-width:100%;
         display:block;
