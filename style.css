@@ -267,7 +267,7 @@ section{
         text-align: center;
     }
     .main-container.image img{
-        width: 80%;
+        width:min(90%,260px);
         height: auto;
         max-width: 300px;
         display:inline-block;
